@@ -1,6 +1,8 @@
 package me.whiteship.chapter01.item03.field.my;
 
-public class FirstElvis implements IMyElvis {
+import java.io.Serializable;
+
+public class FirstElvis implements IElvis, Serializable {
 
     public static final FirstElvis INSTANCE = new FirstElvis();
 
