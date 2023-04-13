@@ -1,5 +1,6 @@
 package me.whiteship.chapter01.item03.field.my;
 
+import me.whiteship.chapter01.item03.field.my.reflection.SecondElvis;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +9,7 @@ import java.lang.reflect.InvocationTargetException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MyElvisReflectionTest {
+public class ElvisReflectionTest {
 
     @Test
     @DisplayName("리플렉션으로 private 생성자 호출 시 새로운 객체 생성")

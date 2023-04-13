@@ -1,9 +1,11 @@
-package me.whiteship.chapter01.item03.field.my;
+package me.whiteship.chapter01.item03.field.my.reflection;
+
+import me.whiteship.chapter01.item03.field.my.IElvis;
 
 /*
 리플렉션 예외 상황 방지 코드 추가
  */
-public class SecondElvis implements IMyElvis {
+public class SecondElvis implements IElvis {
 
     public static final SecondElvis INSTANCE = new SecondElvis();
 
