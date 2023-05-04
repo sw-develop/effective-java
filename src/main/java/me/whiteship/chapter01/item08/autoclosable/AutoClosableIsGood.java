@@ -19,7 +19,7 @@ public class AutoClosableIsGood implements Closeable {
         try {
             reader.close();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException(e); //checked 예외를 잡아 런타임 예외로 변환하여 던짐
         }
     }
 }
